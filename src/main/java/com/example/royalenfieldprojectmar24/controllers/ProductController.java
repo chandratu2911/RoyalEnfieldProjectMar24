@@ -1,11 +1,11 @@
 package com.example.royalenfieldprojectmar24.controllers;
 
-import dev.naman.productservicettsmorningdeb24.dtos.CreateProductRequestDto;
-import dev.naman.productservicettsmorningdeb24.dtos.ErrorDto;
-import dev.naman.productservicettsmorningdeb24.exceptions.ProductNotFoundException;
-import dev.naman.productservicettsmorningdeb24.models.Product;
-import dev.naman.productservicettsmorningdeb24.services.FakeStoreProductService;
-import dev.naman.productservicettsmorningdeb24.services.ProductService;
+import com.example.royalenfieldprojectmar24.dtos.CreateProductRequestDto;
+import com.example.royalenfieldprojectmar24.dtos.ErrorDto;
+import com.example.royalenfieldprojectmar24.exceptions.ProductNotFoundException;
+import com.example.royalenfieldprojectmar24.models.Product;
+import com.example.royalenfieldprojectmar24.services.FakeStoreProductService;
+import com.example.royalenfieldprojectmar24.services.ProductService;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

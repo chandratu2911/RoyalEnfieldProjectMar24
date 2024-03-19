@@ -1,7 +1,7 @@
 package com.example.royalenfieldprojectmar24.dtos;
 
-import dev.naman.productservicettsmorningdeb24.models.Category;
-import dev.naman.productservicettsmorningdeb24.models.Product;
+import com.example.royalenfieldprojectmar24.models.Category;
+import com.example.royalenfieldprojectmar24.models.Product;
 import lombok.Getter;
 import lombok.Setter;
 

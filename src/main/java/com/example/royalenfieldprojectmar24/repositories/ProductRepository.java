@@ -1,9 +1,9 @@
 package com.example.royalenfieldprojectmar24.repositories;
 
-import dev.naman.productservicettsmorningdeb24.models.Category;
-import dev.naman.productservicettsmorningdeb24.models.Product;
-import dev.naman.productservicettsmorningdeb24.repositories.projections.ProductProjection;
-import dev.naman.productservicettsmorningdeb24.repositories.projections.ProductWithIdAndTitle;
+import com.example.royalenfieldprojectmar24.models.Category;
+import com.example.royalenfieldprojectmar24.models.Product;
+import com.example.royalenfieldprojectmar24.repositories.projections.ProductProjection;
+import com.example.royalenfieldprojectmar24.repositories.projections.ProductWithIdAndTitle;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

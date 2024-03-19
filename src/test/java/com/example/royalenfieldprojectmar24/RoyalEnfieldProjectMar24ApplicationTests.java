@@ -1,8 +1,8 @@
 package com.example.royalenfieldprojectmar24;
 
-import dev.naman.productservicettsmorningdeb24.repositories.ProductRepository;
-import dev.naman.productservicettsmorningdeb24.repositories.projections.ProductProjection;
-import dev.naman.productservicettsmorningdeb24.repositories.projections.ProductWithIdAndTitle;
+import com.example.royalenfieldprojectmar24.repositories.ProductRepository;
+import com.example.royalenfieldprojectmar24.repositories.projections.ProductProjection;
+import com.example.royalenfieldprojectmar24.repositories.projections.ProductWithIdAndTitle;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -20,8 +20,8 @@ class Productservicettsmorningdeb24ApplicationTests {
 
     @Test
     void testingQueries() {
-//           productRepository.findAllByTitle("Hello");
-//        productRepository.findByIdIs(1L);
+           productRepository.findAllByTitle("Hello");
+       productRepository.findByIdIs(1L);
 
         productRepository
                 .findByTitleStartingWithAndIdGreaterThanAndPriceLessThan(

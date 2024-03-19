@@ -1,7 +1,7 @@
 package com.example.royalenfieldprojectmar24.advices;
 
-import dev.naman.productservicettsmorningdeb24.dtos.ErrorDto;
-import dev.naman.productservicettsmorningdeb24.exceptions.ProductNotFoundException;
+import com.example.royalenfieldprojectmar24.dtos.ErrorDto;
+import com.example.royalenfieldprojectmar24.exceptions.ProductNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;

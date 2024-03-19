@@ -1,6 +1,6 @@
 package com.example.royalenfieldprojectmar24.repositories;
 
-import dev.naman.productservicettsmorningdeb24.models.Category;
+import com.example.royalenfieldprojectmar24.models.Category;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CategoryRepository extends JpaRepository<Category, Long> {

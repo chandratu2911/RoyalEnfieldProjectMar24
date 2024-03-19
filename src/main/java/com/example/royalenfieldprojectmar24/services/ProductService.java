@@ -1,9 +1,8 @@
 package com.example.royalenfieldprojectmar24.services;
 
-import dev.naman.productservicettsmorningdeb24.dtos.CreateProductRequestDto;
-import dev.naman.productservicettsmorningdeb24.exceptions.ProductNotFoundException;
-import dev.naman.productservicettsmorningdeb24.models.Product;
-
+import com.example.royalenfieldprojectmar24.dtos.CreateProductRequestDto;
+import com.example.royalenfieldprojectmar24.exceptions.ProductNotFoundException;
+import com.example.royalenfieldprojectmar24.models.Product;
 import java.util.List;
 
 public interface ProductService {

@@ -1,10 +1,10 @@
 package com.example.royalenfieldprojectmar24.services;
 
-import dev.naman.productservicettsmorningdeb24.exceptions.ProductNotFoundException;
-import dev.naman.productservicettsmorningdeb24.models.Category;
-import dev.naman.productservicettsmorningdeb24.models.Product;
-import dev.naman.productservicettsmorningdeb24.repositories.CategoryRepository;
-import dev.naman.productservicettsmorningdeb24.repositories.ProductRepository;
+import com.example.royalenfieldprojectmar24.exceptions.ProductNotFoundException;
+import com.example.royalenfieldprojectmar24.models.Category;
+import com.example.royalenfieldprojectmar24.models.Product;
+import com.example.royalenfieldprojectmar24.repositories.CategoryRepository;
+import com.example.royalenfieldprojectmar24.repositories.ProductRepository;
 import org.springframework.stereotype.Controller;
 import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
